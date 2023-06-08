@@ -1,0 +1,29 @@
+.bottom-navigation {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  background-color: #0277bd;
+}
+
+.bottom-navigation button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+}
+
+.bottom-navigation button.active {
+  color: white;
+}
+
+.bottom-navigation button:not(:last-child) {
+  margin-right: 16px;
+}
+
+.mat-icon {
+  transform: scale(1.5);
+}
